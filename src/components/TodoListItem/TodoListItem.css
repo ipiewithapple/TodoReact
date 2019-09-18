@@ -1,0 +1,28 @@
+.todo-list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list-item .btn {
+  width: 40px;
+  height: 40px;
+}
+
+.todo-list-item-label {
+  width: 80%;
+  color: #555555;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px){
+  .todo-list-item-label {
+    width: 70%;
+  }
+}
+
+@media (max-width: 370px){
+  .todo-list-item-label {
+    width: 60%;
+  }
+}

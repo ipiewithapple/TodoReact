@@ -1,0 +1,16 @@
+.search-panel {
+  background-color: #c6c8ca;
+}
+
+.search-panel:focus {
+  background-color: #c6c8ca;
+  border: 1px solid rgba(255, 255, 255, .3);
+  box-shadow: 0 0 0 0.2rem rgba(220, 220, 220, .25);
+}
+
+@media (max-width: 425px){
+  .search-panel {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+}
